@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
+      - name: Run tests (pass if none exist)
         run: npm test -- --watchAll=false --passWithNoTests
 
       - name: Build the project
