@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 export const TodoForm = ({ addTodo }) => {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState('');
 
   const handleSubmit = (e) => {
     // prevent default action
@@ -10,7 +10,7 @@ export const TodoForm = ({ addTodo }) => {
       // add todo
       addTodo(value);
       // clear form after submission
-      setValue("");
+      setValue('');
     }
   };
   return (
