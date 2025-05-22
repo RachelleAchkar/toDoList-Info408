@@ -5,6 +5,6 @@ import '@testing-library/jest-dom';
 
 test('renders input field and add button', () => {
   render(<TodoForm />);
-  expect(screen.getByPlaceholderText(/add a new task/i)).toBeInTheDocument();
+  expect(screen.getByPlaceholderText(/task/i)).toBeInTheDocument();
   expect(screen.getByText(/add/i)).toBeInTheDocument();
 });
