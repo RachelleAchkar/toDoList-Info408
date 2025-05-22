@@ -54,7 +54,6 @@
     "prettier": "^3.5.3"
   },
   "jest": {
-  "testEnvironment": "jsdom"
-}
-
+    "testEnvironment": "jsdom"
+  }
 }
